@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get '/hello_world' => 'static_pages#hello'
   get '/' => 'static_pages#home'
   get '/home' => 'static_pages#home'
+  get '/roll_die' => 'static_pages#roll_die'
 end
